@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gheleghstudio.ir/sitemap.xml
