@@ -23,7 +23,7 @@
     <meta name="twitter:description" content="استودیوی مستقل بازی‌سازی ایرانی." />
     <meta name="twitter:image" content="https://gheleghstudio.ir/assets/images/logo.png" />
     <script type="application/ld+json">
-      {"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://gheleghstudio.ir/#organization","name":"قلق استدیو","url":"https://gheleghstudio.ir/","logo":"https://gheleghstudio.ir/assets/images/logo.png","email":"info@gheleghstudio.ir"},{"@type":"WebSite","@id":"https://gheleghstudio.ir/#website","url":"https://gheleghstudio.ir/","name":"قلق استدیو","inLanguage":"fa-IR","publisher":{"@id":"https://gheleghstudio.ir/#organization"}}]}
+      {"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://gheleghstudio.ir/#organization","name":"قلق استدیو","url":"https://gheleghstudio.ir/","logo":"https://gheleghstudio.ir/assets/images/logo.png","email":"info@gheleghstudio.ir"},{"@type":"WebSite","@id":"https://gheleghstudio.ir/#website","url":"https://gheleghstudio.ir/","name":"قلق استدیو","inLanguage":"fa-IR","publisher":{"@id":"https://gheleghstudio.ir/#organization"}},{"@type":"VideoGame","@id":"https://gheleghstudio.ir/#radino","name":"رَدینو","url":"https://gheleghstudio.ir/#radino","image":"https://gheleghstudio.ir/assets/images/radino/golden-footprints.png","description":"بازی معمایی و داستان‌محور فارسی برای کودکان و نوجوانان ۷ تا ۱۴ سال.","inLanguage":"fa-IR","genre":["Puzzle","Adventure"],"audience":{"@type":"PeopleAudience","suggestedMinAge":7,"suggestedMaxAge":14},"publisher":{"@id":"https://gheleghstudio.ir/#organization"},"sameAs":"https://cafebazaar.ir/app/radino.mokho.com"},{"@type":"VideoGame","@id":"https://gheleghstudio.ir/#hoosh-up","name":"هوش‌آپ","url":"https://gheleghstudio.ir/#hoosh-up","image":"https://gheleghstudio.ir/assets/images/hoosh-up.png","description":"بازی ماجراجویی و معمایی برای آموزش استفادهٔ دقیق، خلاقانه و مسئولانه از هوش مصنوعی.","inLanguage":"fa-IR","genre":["Adventure","Puzzle","Educational"],"publisher":{"@id":"https://gheleghstudio.ir/#organization"}}]}
     </script>
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="assets/css/responsive.css" />
@@ -40,10 +40,10 @@
           <span></span><span></span><span></span>
         </button>
         <ul class="nav-links">
-          <li><a aria-current="page" href="index.html">خانه</a></li>
-          <li><a href="games.html">بازی‌ها</a></li>
-          <li><a href="about.html">درباره ما</a></li>
-          <li><a href="contact.html">تماس</a></li>
+          <li><a aria-current="page" href="#main">خانه</a></li>
+          <li><a href="#games">بازی‌ها</a></li>
+          <li><a href="#about">درباره ما</a></li>
+          <li><a href="#contact">تماس</a></li>
         </ul>
       </nav>
     </header>
@@ -58,8 +58,8 @@
               آرام که راهشان را با شما پیدا می‌کنند.
             </p>
             <div class="button-row">
-              <a class="button button-primary" href="radino.html">دیدن رَدینو</a
-              ><a class="button button-quiet" href="games.html">همهٔ بازی‌ها</a>
+              <a class="button button-primary" href="#radino">دیدن رَدینو</a
+              ><a class="button button-quiet" href="#games">همهٔ بازی‌ها</a>
             </div>
           </div>
           <div class="case-file" aria-label="معرفی بازی رَدینو">
@@ -78,7 +78,7 @@
                 ><strong>رَدینو</strong>
               </div>
               <p>ماجراجویی‌های معمایی برای ۷ تا ۱۴ سال</p>
-              <a href="radino.html"
+              <a href="#radino"
                 >باز کردن پرونده <span aria-hidden="true">←</span></a
               >
             </div>
@@ -91,11 +91,11 @@
           ><span>جواب را پیدا کن</span>
         </div>
       </section>
-      <section class="section">
+      <section class="section" id="about" aria-labelledby="about-title">
         <div class="container intro-grid">
           <div>
             <span class="eyebrow">دربارهٔ ما</span>
-            <h2 class="section-title">قصه را به بازی تبدیل می‌کنیم.</h2>
+            <h2 class="section-title" id="about-title">قصه را به بازی تبدیل می‌کنیم.</h2>
           </div>
           <div class="intro-copy">
             <p>
@@ -106,16 +106,14 @@
               ما به بازی‌هایی فکر می‌کنیم که بازیکن را به دیدن دقیق‌تر و پرسیدن
               دعوت می‌کنند.
             </p>
-            <a class="button button-quiet" href="about.html"
-              >بیشتر دربارهٔ استودیو</a
-            >
+            <a class="button button-quiet" href="#contact">با ما در تماس باشید</a>
           </div>
         </div>
       </section>
-      <section class="section games-showcase">
+      <section class="section games-showcase" id="games" aria-labelledby="games-title">
         <div class="container">
           <span class="eyebrow">بازی‌ها</span>
-          <h2 class="section-title">جهان‌هایی برای دنبال کردن</h2>
+          <h2 class="section-title" id="games-title">جهان‌هایی برای دنبال کردن</h2>
           <div class="game-grid">
             <article class="game-card">
               <div class="game-card-image">
@@ -130,7 +128,7 @@
                   یک بازی معمایی و داستان‌محور فارسی برای کودکان و نوجوانان ۷ تا
                   ۱۴ سال.
                 </p>
-                <a class="button button-primary" href="radino.html"
+                <a class="button button-primary" href="#radino"
                   >ورود به پرونده</a
                 >
                 <a
@@ -155,12 +153,58 @@
                   بازی ماجراجویی و معمایی برای نوجوان‌ها؛ یادگیری استفادهٔ دقیق،
                   خلاقانه و مسئولانه از هوش مصنوعی در دل مأموریت‌ها و چالش‌ها.
                 </p>
-                <a class="button button-primary" href="hoosh-up.html"
+                <a class="button button-primary" href="#hoosh-up"
                   >ورود به صفحه</a
                 >
               </div>
             </article>
           </div>
+        </div>
+      </section>
+      <section class="project-detail radino-highlight" id="radino" aria-labelledby="radino-title">
+        <div class="container project-detail-grid">
+          <div class="project-detail-copy">
+            <span class="eyebrow">بازی رَدینو</span>
+            <h2 id="radino-title">دقیق ببین، فکر کن، پیدا کن.</h2>
+            <p class="lead">یک بازی معمایی و داستان‌محور فارسی برای کودکان و نوجوانان ۷ تا ۱۴ سال.</p>
+            <p>در هر پرونده، محیط را جست‌وجو کن، سرنخ پیدا کن و با شخصیت‌ها گفت‌وگو کن. با کنار هم گذاشتن اطلاعات، معماها را حل کن و راز پرونده را کشف کن.</p>
+            <ul class="features">
+              <li>معماهای منطق، دقت، درک مطلب، محاسبات ساده و نقشه‌خوانی</li>
+              <li>ثبت و تحلیل سرنخ‌ها در «دفتر کارآگاه»</li>
+              <li>ماجراهای تازه از کتابخانه و بازار تا مترو و برج میلاد</li>
+            </ul>
+            <div class="button-row">
+              <a class="button button-primary" href="https://cafebazaar.ir/app/radino.mokho.com" target="_blank" rel="noopener noreferrer">دانلود از بازار</a>
+            </div>
+          </div>
+          <div class="project-detail-image">
+            <img src="assets/images/radino/golden-footprints.png" alt="تصویر بازی معمایی رَدینو" />
+          </div>
+        </div>
+      </section>
+      <section class="project-detail" id="hoosh-up" aria-labelledby="hoosh-up-title">
+        <div class="container project-detail-grid project-detail-grid-reverse">
+          <div class="project-detail-copy">
+            <span class="eyebrow">در دست ساخت</span>
+            <h2 id="hoosh-up-title">هوش‌آپ؛ ماجراجویی، معما و هوش مصنوعی</h2>
+            <p class="lead">بازی ماجراجویی و معمایی برای نوجوان‌ها که مفاهیم هوش مصنوعی را در دل مأموریت‌ها و چالش‌های بازی آموزش می‌دهد.</p>
+            <p>بازیکن یاد می‌گیرد چطور درست سؤال بپرسد، پاسخ‌های AI را بررسی کند، خطاها را تشخیص دهد و از ابزارهای هوشمند برای تحقیق و حل مسئله استفاده کند.</p>
+            <p>هدف بازی این است که نوجوان به‌جای استفادهٔ صرف از AI، روش استفادهٔ دقیق، خلاقانه و مسئولانه از آن را تجربه کند.</p>
+            <a class="button button-quiet" href="#games">بازگشت به بازی‌ها</a>
+          </div>
+          <div class="project-detail-image">
+            <img src="assets/images/hoosh-up.png" alt="تصویر بازی هوش‌آپ" />
+          </div>
+        </div>
+      </section>
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="container contact-layout">
+          <div>
+            <span class="eyebrow">ارتباط</span>
+            <h2 class="section-title" id="contact-title">در تماس باشیم.</h2>
+            <p>برای پیام‌های کاری و پیگیری خبرهای رسمی قلق استدیو، به ما ایمیل بزنید.</p>
+          </div>
+          <a class="button button-primary" href="mailto:info@gheleghstudio.ir">info@gheleghstudio.ir</a>
         </div>
       </section>
     </main>

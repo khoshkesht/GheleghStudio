@@ -1,0 +1,6 @@
+# Include these rules inside the server { ... } block for gheleghstudio.ir.
+location = /games.html { return 301 "/#games"; }
+location = /radino.html { return 301 "/#radino"; }
+location = /hoosh-up.html { return 301 "/#hoosh-up"; }
+location = /about.html { return 301 "/#about"; }
+location = /contact.html { return 301 "/#contact"; }
